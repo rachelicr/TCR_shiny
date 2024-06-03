@@ -1,0 +1,174 @@
+Sample	Reads	Subtypes	Batch	Clinical.Data.provided	X228.panel..n.144.	RNA.seq..n.113.	Refined.Panel.FF	Refined.panel.FFPE	MEN1	DAxx	ATRx	PTEN	TSC2	TSC1	MTOR	Sex	Age	Functional..Non.functional	Hormone.Secreted	Site.of.Tumor	Tumor.size.mm	X..Ki67.cells.highest.value	Lymph.node.metastasis	Liver.metastasis	pT.ENETS	pN	pM	Stage.ENETS	Status.at.last.observation	Overall.survival	Date.of.last.f.up	Time.to.last.follow.up.from.diagnosis..months.	Status.at.last.f.up..0.Dead..1.Alive..2.Lost.to.f.up.	Date.of.death	Overall.Survival..Date.diagnosis.to..date.of.death.or.date.lost.to.follow.up..Months	PanNETassigner.Subtype..awaited.	status
+673_TCR_clones	17857400	MLP-2	batch1	Y	1st 48	Aros		Y							n.e.	F	61	NF	N/A	Head	25	10	YES	NO	2	1	0	IIIb	alive	24	UNK	24.0	1	UNK	Alive	NA	0
+681_TCR_clones	68987050	NA	NovaSeq_set2	Y	2nd 48				x						n.e.	M	63	NF	N/A	Head	2	3	YES	NO	4	1	0	IIIb	alive	24	UNK	24.0	1	UNK	Alive	NA	0
+695_TCR_clones	70769253	MLP-2	NovaSeq_set2	Y	N/A	Mayo2									n.e.	F	46	NF	N/A	Tail	1.8	20	NO	NO	1	0	0	I	alive	36	UNK	36.0	1	UNK	Alive	NA	0
+700_TCR_clones	52864030	MLP-1	NovaSeq_set2	Y	N/A	Mayo2			x	x					n.e.	F	62	NF	N/A	Tail	45	4	NO	NO	3	0	0	IIb	alive	35	UNK	35.0	1	UNK	Alive	NA	0
+797_TCR_clones	67653154	Intermediate	NovaSeq_set2	Y	1st 48										n.e.	M	71	NF	N/A	Head	45	3	NO	NO	3	0	0	IIb	alive	22	UNK	22.0	1	UNK	Alive	NA	0
+833_TCR_clones	55056952	MLP-2	NovaSeq_set2	Y	1st 48			Y							x	M	48	NF	N/A	Head	30	15	NO	NO	2	0	0	IIa	alive	38	UNK	38.0	1	UNK	Alive	NA	0
+850_TCR_clones	52909408	NA	NovaSeq_set2	Y	3rd 42										n.e.	M	64	NF	N/A	Tail	15	1	NO	NO	1	0	0	I	alive	23	UNK	23.0	1	UNK	Alive	NA	0
+900_TCR_clones	30360051	NA	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo					x				n.e.	F	66	NF	N/A	Tail	50	4	YES	NO	3	1	0	IIIb	alive	18	UNK	18.0	1	UNK	Alive	NA	0
+924_TCR_clones	34040303	NA	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo			x	x					n.e.	M	72	NF	N/A	Body	30	12	YES	NO	2	1	0	IIIb	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+938_TCR_clones	18272668	NA	batch1	Y	2nd 48	Aros			x							M	56	NF	N/A	Head	26	17	YES	NO	4	1	0	IIIb	alive	36	UNK	36.0	1	UNK	Alive	NA	0
+941_TCR_clones	31201534	NA	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo									n.e.	F	54	F	Insulin	Head	13	3	NO	NO	2	0	0	IIa	alive	35	UNK	35.0	1	UNK	Alive	NA	0
+968_TCR_clones	21769887	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo									n.e.	M	71	NF	N/A	Body	30	1	NO	NO	2	0	0	IIa	alive	23	UNK	23.0	1	UNK	Alive	NA	0
+993_TCR_clones	32238743	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo		Y							n.e.	M	59	F	ACTH	Tail	30	25	NO	YES	2	0	1	IV	dead of disease	24	UNK	24.0	0	UNK	24	NA	1
+1000_TCR_clones	160921747	Intermediate	NovaSeq_set1	Y	1st 48			Y							n.e.	M	52	NF	N/A	Head	70	3	YES	YES	3	1	1	IV	alive	15	UNK	15.0	1	UNK	Alive	NA	0
+1001_TCR_clones	36580221	Insulinoma-like	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo									n.e.	M	54	F	Insulin	Body	12	1	NO	NO	1	0	0	I	alive	30	UNK	30.0	1	UNK	Alive	NA	0
+1027_TCR_clones	58896577	MLP-1	NovaSeq_set1	Y	1st 48			Y	x			x			n.e.	M	50	NF	N/A	Head	65	1	NO	NO	4	0	0	IIIa	alive	34	UNK	34.0	1	UNK	Alive	NA	0
+1044_TCR_clones	63199591	NA	NovaSeq_set1	Y	1st 48										n.e.	F	46	NF	N/A	Head	18	80	YES	NO	4	1	0	IIIb	alive	15	UNK	15.0	1	UNK	Alive	NA	0
+1047_TCR_clones	70885845	MLP-1	NovaSeq_set1	Y	1st 48			Y							n.e.	M	68	NF	N/A	Head	35	95	YES	NO	4	1	0	IIIb	dead 5 days after surgery MI	0.16	UNK	0.2	0	UNK	0.16	NA	1
+1050_TCR_clones	25221363	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo			x						n.e.	F	20	NF	N/A	Head	32	5	YES	NO	2	1	0	IIIb	alive	30	UNK	30.0	1	UNK	Alive	NA	0
+1053_TCR_clones	25541492	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo			x	x		x			n.e.	M	55	NF	N/A	Tail	90	8	NO	NO	4	0	0	IIIa	alive	14	UNK	14.0	1	UNK	Alive	NA	0
+1081_TCR_clones	48572775	NA	NovaSeq_set1	Y	N/A	Mayo2										M	35	NF	N/A	Head	25	8	YES	NO	3	1	0	IIIb	alive	22	UNK	22.0	1	UNK	Alive	NA	0
+1133_TCR_clones	36533089	NA	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo									n.e.	F	46	F	Insulin	Body	20	2	NO	NO	2	0	0	IIa	alive	23	UNK	23.0	1	UNK	Alive	NA	0
+1134_TCR_clones	154019258	MLP-2	NovaSeq_set1	Y	N/A	Mayo2									n.e.	F	66	F	Serotonin	Head	45	2	YES	NO	3	1	0	IIIb	NA	NA	UNK	UNK	2	UNK	UNK	NA	0
+1163_TCR_clones	51906373	Intermediate	NovaSeq_set1	Y	2nd 48				x						n.e.	F	70	NF	N/A	Head	50	3	YES	NO	4	1	0	IIIb	alive	24	UNK	24.0	1	UNK	Alive	NA	0
+1192_TCR_clones	35711042	Intermediate	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo									n.e.	F	57	NF	N/A	Tail	80	5	NO	NO	4	0	0	IIIa	alive	24	UNK	24.0	1	UNK	Alive	NA	0
+1246_TCR_clones	51353432	Intermediate	NovaSeq_set1	Y	1st 48			Y							n.e.	M	24	NF	N/A	body-tail	45	7	YES	NO	3	1	0	IIIb	alive	21	UNK	21.0	1	UNK	Alive	NA	0
+1262_TCR_clones	48623546	Insulinoma-like	NovaSeq_set1	Y	2nd 48			Y							n.e.	M	57	F	Insulin	Tail	18	2	NO	NO	1	0	0	I	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+1264_TCR_clones	20432700	NA	batch1	Y	1st 48	Aros										M	68	F	Insulin	Body	15	1	NO	NO	1	0	0	I	alive	98	UNK	98.0	1	UNK	Alive	NA	0
+1265_TCR_clones	36735970	MLP-1	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo			x							F	74	NF	N/A	Head	45	5	YES	NO	3	1	0	IIIb	alive	62	UNK	62.0	1	UNK	Alive	NA	0
+1266_TCR_clones	31970529	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo		Y								M	42	NF	N/A	Head	15	1	YES	NO	1	1	0	IIIb	alive	48	UNK	48.0	1	UNK	Alive	NA	0
+1270_TCR_clones	27728751	NA	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo			x							F	39	NF	N/A	body-tail	15	1	NO	NO	1	0	0	I	alive	48	UNK	48.0	1	UNK	Alive	NA	0
+1273_TCR_clones	29756196	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo										M	63	NF	N/A	body-tail	60	2	NO	NO	3	0	0	IIb	alive	70	UNK	70.0	1	UNK	Alive	NA	0
+1274_TCR_clones	42772967	MLP-1	NovaSeq_set1	Y	1st 48			Y								F	69	NF	N/A	Head	45	1	YES	NO	3	1	0	IIIb	alive	40	UNK	40.0	1	UNK	Alive	NA	0
+1280_TCR_clones	27668521	NA	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo								n.v	n.e.	F	59	NF	N/A	Body	13	2	YES	NO	1	1	0	IIIb	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+1281_TCR_clones	35611831	NA	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo									n.e.	F	40	NF	N/A	Head	20	1	NO	NO	2	0	0	IIa	alive	51	UNK	51.0	1	UNK	Alive	NA	0
+1286_TCR_clones	31499310	Intermediate	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo			x							F	71	NF	N/A	Tail	14	1	NO	NO	1	0	0	I	dead of other disease	13	UNK	13.0	0	UNK	13	NA	1
+1288_TCR_clones	36330437	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo			x	x						F	64	NF	N/A	body-tail	50	8	YES	YES	3	1	1	IV	alive	45	UNK	45.0	1	UNK	Alive	NA	0
+1293_TCR_clones	62160433	Intermediate	NovaSeq_set1	Y	1st 48											M	37	NF	N/A	body+tail	10	5	YES	NO	3	1	0	IIIb	alive	34	UNK	34.0	1	UNK	Alive	NA	0
+1301_TCR_clones	39314901	Intermediate	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo			x	x						M	53	NF	N/A	body-tail	52	2	YES	YES	3	1	1	IV	dead of disease	5	UNK	5.0	0	UNK	5	NA	1
+1308_TCR_clones	19161101	MLP-1	batch1	Y	2nd 48	Aros			x	x		x				M	57	NF	N/A	body-tail	80	5	YES	YES	4	1	1	IV	NA	NA	UNK	NA	2	UNK	UNK	NA	0
+1309_TCR_clones	31312317	NA	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo										F	27	F	Insulin	Head-Body-Tail-Multiple	20	3	YES	YES	2	1	1	IV	alive	26	UNK	26.0	1	UNK	Alive	NA	0
+1311_TCR_clones	181568397	MLP-2	NovaSeq_set1	Y	2nd 48						x					M	70	NF	N/A	Head	13	1	YES	NO	1	1	0	IIIb	alive	68	UNK	68.0	1	UNK	Alive	NA	0
+1312_TCR_clones	59157806	Intermediate	NovaSeq_set1	Y	1st 48					x						M	46	NF	N/A	body-tail	90	5	YES	YES	4	1	1	IV	dead of disease	65	UNK	65.0	0	UNK	65	NA	1
+1314_TCR_clones	32654040	MLP-1	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo		Y	x							F	34	NF	N/A	Head+tail	90	8	YES	NO	3	1	0	IIIb	alive	84	UNK	84.0	1	UNK	Alive	NA	0
+1317_TCR_clones	68043049	Insulinoma-like	NovaSeq_set1	Y	1st 48											M	17	F	Insulin	Tail	33	2	NO	NO	2	0	0	IIa	NA	NA	UNK	UNK	2	UNK	UNK	NA	0
+1321_TCR_clones	49963294	NA	NovaSeq_set1	Y	2nd 48			Y								M	50	F	Gastrin	Head	10	1	YES	NO	1	1	0	IIIb	alive	17	UNK	17.0	1	UNK	Alive	NA	0
+1322_TCR_clones	29160704	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y								F	65	NF	N/A	Head	35	4	NO	NO	2	0	0	IIa	alive	50	UNK	50.0	1	UNK	Alive	NA	0
+1362_TCR_clones	27291223	NA	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo			x						n.e.	M	49	F	ACTH	Tail	6	2	NO	NO	1	0	0	I	alive	18	UNK	18.0	1	UNK	Alive	NA	0
+1366_TCR_clones	27560156	Intermediate	FASTQ_from_kannan_Mayo	Y	2nd 48	Mayo		Y	x						n.e.	F	37	NF	N/A	Head	35	1	NO	NO	2	0	0	IIa	alive	16	UNK	16.0	1	UNK	Alive	NA	0
+1409_TCR_clones	60062484	NA	NovaSeq_set1	Y	2nd 48			Y							n.e.	F	29	NF	N/A	Head	30	1	YES	NO	2	1	0	IIIb	alive	17	UNK	17.0	1	UNK	Alive	NA	0
+1469_TCR_clones	59213370	Intermediate	NovaSeq_set1	Y	N/A	Mayo2							x			F	60	NF	N/A	Body	30	1	YES	NO	2	1	0	IIIb	alive	48	UNK	48.0	1	UNK	Alive	NA	0
+1473_TCR_clones	38842007	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo										M	68	NF	N/A	Body	40	1	NO	NO	2	0	0	IIa	alive	36	UNK	36.0	1	UNK	Alive	NA	0
+1474_TCR_clones	53594990	MLP-1	NovaSeq_set1	Y	N/A	Mayo2			x		x	x		n.e.	n.e.	F	44	NF	N/A	body-tail	100	5	NO	YES	4	0	1	IV	alive	36	UNK	36.0	1	UNK	Alive	NA	0
+1475_TCR_clones	28538169	NA	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	M	64	NF	N/A	Head	50	2	YES	NO	3	1	0	IIIb	alive	36	UNK	36.0	1	UNK	Alive	NA	0
+1476_TCR_clones	47256458	NA	NovaSeq_set1	Y	2nd 48				x	x					n.e.	M	56	NF	N/A	Body	45	1	YES	NO	3	1	0	IIIb	alive	36	UNK	36.0	1	UNK	Alive	NA	0
+1481_TCR_clones	62751645	NA	NovaSeq_set1	Y	2nd 48				x						n.e.	M	51	NF	N/A	Body	14	1	YES	NO	1	1	0	IIIb	alive	35	UNK	35.0	1	UNK	Alive	NA	0
+1484_TCR_clones	52218979	Intermediate	NovaSeq_set1	Y	N/A	Mayo2				x			x		n.e.	F	41	NF	N/A	body-tail	26	5	YES	NO	2	1	0	IIIb	alive	35	UNK	35.0	1	UNK	Alive	NA	0
+1485_TCR_clones	45454399	NA	NovaSeq_set1	Y	N/A	Mayo2			x	x					n.e.	M	56	NF	N/A	Head	35	2	YES	NO	2	1	0	IIIb	alive	30	UNK	30.0	1	UNK	Alive	NA	0
+1486_TCR_clones	33557081	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	F	17	NF	N/A	Head	55		NO	NO					NA	NA	UNK	UNK	2	UNK	UNK	NA	0
+1487_TCR_clones	68222547	NA	NovaSeq_set1	Y	N/A	Mayo2									n.e.	M	74	NF	N/A	Tail	14	2	NO	NO	1	0	0	I	alive	34	UNK	34.0	1	UNK	Alive	NA	0
+1489_TCR_clones	45855091	MLP-1	NovaSeq_set1	Y	N/A	Mayo2			x	x			x		n.e.	M	37	NF	N/A	Head	65	20	YES	YES	3	1	1	IV	alive	26	UNK	26.0	1	UNK	Alive	NA	0
+1492_TCR_clones	32736253	NA	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	M	33	NF	N/A	Body	15	1	NO	NO	1	0	0	I	alive	32	UNK	32.0	1	UNK	Alive	NA	0
+1493_TCR_clones	19629069	Intermediate	batch1	Y	2nd 48	Aros			x				x		n.e.	M	43	NF	N/A	Body	25	1	NO	NO	2	0	0	IIa	alive	24	UNK	24.0	1	UNK	Alive	NA	0
+1495_TCR_clones	50728967	NA	NovaSeq_set1	Y	N/A	Mayo2									n.e.	F	41	NF	N/A	ampulla minor	30	2	YES	NO	3	1	0	IIIb	alive	22	UNK	22.0	1	UNK	Alive	NA	0
+1497_TCR_clones	55073538	NA	NovaSeq_set1	Y	2nd 48				x		x				n.e.	F	71	NF	N/A	Body	25	3	YES	NO	2	1	0	IIIb	alive	29	UNK	29.0	1	UNK	Alive	NA	0
+1498_TCR_clones	22681662	NA	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo									n.e.	M	47	NF	N/A	Body	15	1	NO	NO	1	0	0	I	alive	28	UNK	28.0	1	UNK	Alive	NA	0
+1500_TCR_clones	57412868	Intermediate	NovaSeq_set1	Y	N/A	Mayo2			x						n.e.	F	70	NF	N/A	Head	65	2	NO	NO	3	0	0	IIb	alive	27	UNK	27.0	1	UNK	Alive	NA	0
+1501_TCR_clones	54452735	Intermediate	NovaSeq_set1	Y	N/A	Mayo2			x						n.e.	M	66	NF	N/A	Body	15	1	NO	NO	1	0	0	I	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+1507_TCR_clones	53987832	MLP-1	NovaSeq_set1	Y	2nd 48										n.e.	M	52	NF	N/A	Head	30	3	NO	NO	2	0	0	IIa	alive	24	UNK	24.0	1	UNK	Alive	NA	0
+1508_TCR_clones	50206654	Insulinoma-like	NovaSeq_set1	Y	N/A	Mayo2									n.e.	M	67	NF	N/A	Head	30	1	NO	NO	2	0	0	IIa	alive	17	UNK	17.0	1	UNK	Alive	NA	0
+1510_TCR_clones	17617889	Insulinoma-like	batch1	Y	N/A	Aros				x					n.e.	F	43	F	Insulin	Body	15	1	NO	NO	1	0	0	I	alive	22	UNK	22.0	1	UNK	Alive	NA	0
+1512_TCR_clones	33016991	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	F	34	NF	N/A	Head	30	3	NO	NO	2	0	0	IIa	alive	18	UNK	18.0	1	UNK	Alive	NA	0
+1517_TCR_clones	18319670	Insulinoma-like	batch1	Y	1st 48	Aros									n.e.	F	66	NF	N/A	Head	25	10	NO	NO	2	0	0	IIa	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+1518_TCR_clones	47288686	MLP-2	NovaSeq_set1	Y	3rd 42										n.e.	M	69	NF	N/A	Head	60	1	YES	NO	3	1	0	IIIb	alive	15	UNK	15.0	1	UNK	Alive	NA	0
+1519_TCR_clones	39607687	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo									n.e.	F	55	NF	N/A	Head	50	10	NO	NO	3	0	0	IIb	alive	13	UNK	13.0	1	UNK	Alive	NA	0
+1520_TCR_clones	44145843	MLP-1	NovaSeq_set1	Y	N/A	Mayo2					x				n.e.	M	72	NF	N/A	Tail	60	17	NO	NO	3	0	0	IIb	alive	NA	UNK		1	UNK	Alive	NA	0
+1522_TCR_clones	46422204	NA	NovaSeq_set1	Y	3rd 42				x						n.e.	F	41	NF	N/A	Body	25	2	NO	NO	2	0	0	IIa	alive	15	UNK	15.0	1	UNK	Alive	NA	0
+1523_TCR_clones	58771184	Intermediate	NovaSeq_set1	Y	2nd 48										n.e.	M	48	NF	N/A	Tail	35	1	NO	NO	2	0	0	IIa	alive	15	UNK	15.0	1	UNK	Alive	NA	0
+1541_TCR_clones	63452000	NA	NovaSeq_set1	Y	N/A	Mayo2			x	x	x				n.e.	F	65	NF	N/A	Tail	25	3	YES	NO	2	1	0	IIIb	alive	12	UNK	12.0	1	UNK	Alive	NA	0
+1579_TCR_clones	25414545	NA	FCHLY32BBXX_Kannan_Mayo	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0
+1635_TCR_clones	17777547	NA	batch1	Y	1st 48	Aros										F	52	NF	N/A	body-tail	120	7	NO	NO	4	0	0	IIIa	dead of disease	71	UNK	71.0	0	UNK	71	NA	1
+1637_TCR_clones	17881724	NA	batch1	Y	1st 48	Aros			x		x	x				M	48	NF	N/A	body-tail	110	5	NO	NO	4	0	0	IIIa	alive	129	UNK	129.0	1	UNK	Alive	NA	0
+1638_TCR_clones	55680260	NA	NovaSeq_set2	Y	1st 48				x	x					n.e.	F	41	NF	N/A	Body	55	5	YES	NO	3	1	0	IIIb	alive	129	UNK	129.0	1	UNK	Alive	NA	0
+1639_TCR_clones	21625430	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y	Y								M	69	NF	N/A	Head	15	1	NO	NO	1	0	0	I	alive	162	UNK	162.0	1	UNK	Alive	NA	0
+1644_TCR_clones	81760885	NA	NovaSeq_set2	Y	*1st 48										n.e.	M	51	F	Insulin	Tail	12	1	NO	NO	1	0	0	I	alive	47	UNK	47.0	1	UNK	Alive	NA	0
+1649_TCR_clones	57670252	NA	NovaSeq_set2	Y	1st 48			Y	x	x					n.e.	M	56	NF	N/A	body-tail	70	5	YES	YES	4	1	1	IV	alive	216	UNK	216.0	1	UNK	Alive	NA	0
+1651_TCR_clones	19493765	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	79	F	Glucagon	Head	45	2	NO	NO	3	0	0	IIb	dead of disease	5	UNK	5.0	0	UNK	5	NA	1
+1652_TCR_clones	29471655	NA	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	M	71	NF	N/A	Tail	45	1	NO	NO	4	0	0	IIIa	alive	83	UNK	83.0	1	UNK	Alive	NA	0
+1653_TCR_clones	26081600	NA	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	M	50	NF	N/A	Tail	70	20	NO	NO	3	0	0	IIb	alive	94	UNK	94.0	1	UNK	Alive	NA	0
+1657_TCR_clones	23844628	NA	batch1	Y	1st 48	Aros		Y	x		x	x				M	44	NF	N/A	body-tail	80	8	YES	YES	4	1	1	IV	dead of disease	18	UNK	18.0	0	UNK	18	NA	1
+1660_TCR_clones	55477138	NA	NovaSeq_set2	Y	1st 48										n.e.	M	41	F	Gastrin	Head	15	1	YES	YES	2	1	1	IV	alive	91	UNK	91.0	1	UNK	Alive	NA	0
+1661_TCR_clones	51469943	MLP-1	NovaSeq_set2	Y	N/A	Mayo2			x						n.e.	F	46	NF	N/A	Head	50	2	NO	NO	3	0	0	IIb	alive	68	UNK	68.0	1	UNK	Alive	NA	0
+1662_TCR_clones	45455689	NA	NovaSeq_set2	Y	N/A	Mayo2									n.e.	F	70	NF	N/A	Head	40	7	YES	NO	4	1	0	IIIb	alive	112	UNK	112.0	1	UNK	Alive	NA	0
+1663_TCR_clones	63172456	Intermediate	NovaSeq_set2	Y	2nd 48				x	x					n.e.	M	71	NF	N/A	body-tail	110	10	NO	YES					alive	109	UNK	109.0	1	UNK	Alive	NA	0
+1664_TCR_clones	57953855	MLP-2	NovaSeq_set2	Y	1st 48			Y							n.e.	F	30	NF	N/A	body-tail	70	15	YES	YES	4	1	1	IV	dead of disease	56	UNK	56.0	0	UNK	56	NA	1
+1665_TCR_clones	62708564	NA	NovaSeq_set2	Y	*1st 48				x						n.e.	F	17	NF	N/A	Head	15	2	NO	NO	1	0	0	I	alive	132	UNK	132.0	1	UNK	Alive	NA	0
+1671_TCR_clones	20800010	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo		Y							n.e.	M	34	F	Insulin	Tail	50	2	NO	NO	3	0	0	IIb	alive	120	UNK	120.0	1	UNK	Alive	NA	0
+1672_TCR_clones	19232908	NA	batch1	Y	1st 48	Aros		Y	x						n.e.	M	52	F	Insulin	Tail	15	1	NO	NO	1	0	0	I	alive	138	UNK	138.0	1	UNK	Alive	NA	0
+1703_TCR_clones	30770952	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo									n.e.	M	57	NF	N/A	Tail	70	1	NO	YES	3	0	1	IV	NA	NA	UNK	UNK	2	UNK	UNK	NA	0
+1745_TCR_clones	35549992	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y	x	x			x		n.e.	F	67	NF	N/A	Tail	100	6	YES	YES	3	1	1	IV	alive	12	UNK	12.0	1	UNK	Alive	NA	0
+1772_TCR_clones	17180785	Intermediate	batch1	Y	2nd 48	Aros									n.e.	M	62	NF	N/A	Tail	12	1	NO	NO	1	0	0	I	alive	9	UNK	9.0	1	UNK	Alive	NA	0
+1861_TCR_clones	47357181	MLP-1	NovaSeq_set2	Y	3rd 42										n.e.	F	50	NF	N/A	Head	40	3	YES	YES	3	1	1	IV	NA	NA	UNK	10.0	2	UNK	10	NA	0
+1871_TCR_clones	90461908	MLP-2	NovaSeq_set2	Y	3rd 42			Y	x						n.e.	F	70	NF	N/A	Tail	13	20	YES	YES	4	1	1	IV	alive	5	UNK	5.0	1	UNK	Alive	NA	0
+1876_TCR_clones	49669608	Intermediate	NovaSeq_set2	Y	1st 48					x					n.e.	M	73		N/A	Body	32	10	YES	NO	2	1	0	IIIb	alive	6	UNK	6.0	1	UNK	Alive	NA	0
+1913_TCR_clones	56467388	NA	NovaSeq_set2	Y	*1st 48										n.e.	F	68	NF	N/A	Tail	20	5	YES	NO	2	1	0	IIIb	dead of disease	58	UNK	58.0	0	UNK	58	NA	1
+1914_TCR_clones	122133738	NA	NovaSeq_set2	Y	*1st 48			Y							n.e.	F	50	NF	N/A	Head	20	30	YES	NO	3	1	0	IIIb	dead of disease	12	UNK	12.0	0	UNK	12	NA	1
+1917_TCR_clones	58136999	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									M	33	NF	N/A	Head	50	1	NO	NO	3	0	0	IIb	alive	167	UNK	167.0	1	UNK	Alive	NA	0
+1918_TCR_clones	31926227	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y	Y	x							M	47	NF	N/A	Tail	25	1	NO	NO	2	0	0	IIa	alive	84	UNK	84.0	1	UNK	Alive	NA	0
+1922_TCR_clones	36106747	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo		Y			x					F	49	NF	N/A	Tail	110	1	NA	NO	3	X	0	II	alive	216	UNK	216.0	1	UNK	Alive	NA	0
+1923_TCR_clones	83648573	NA	NovaSeq_set2	Y	1st 48										n.e.	F	55	NF	N/A	Body	8	1	NA	NO	1	X	0	I	alive	79	UNK	79.0	1	UNK	Alive	NA	0
+1927_TCR_clones	29674508	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									F	74	NF	N/A	Body	30	40	YES	NO	2	1	1	IV	dead of disease	6	UNK	6.0	0	UNK	6	NA	1
+1929_TCR_clones	54798860	NA	NovaSeq_set2	Y	*1st 48								x	x	n.e.	F	53	NF	N/A	body-tail	90	7	YES	NO	4	1	0	IIIb	alive	40	UNK	40.0	1	UNK	Alive	NA	0
+1932_TCR_clones	35513432	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo							x			F	25	NF	N/A	Head	60	2	NO	NO	3	0	0	IIb	alive	113	UNK	113.0	1	UNK	Alive	NA	0
+1934_TCR_clones	52176923	NA	NovaSeq_set2	Y	*1st 48			Y							n.e.	F	56	NF	N/A	Body	15	1	NO	NO	1	0	0	I	alive	119	UNK	119.0	1	UNK	Alive	NA	0
+1935_TCR_clones	166962019	NA	NovaSeq_set2	Y	1st 48				n.v	n.v	n.v	n.v	n.v		n.e.	M	75	NF	N/A	Tail	75	2	NO	NO	3	0	0	IIb	alive	89	UNK	89.0	1	UNK	Alive	NA	0
+1941_TCR_clones	37466466	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									F	27	F	Insulin	Body	50	2	NA	NO	3	X	0	II	alive	179	UNK	179.0	1	UNK	Alive	NA	0
+1947_TCR_clones	28554118	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									M	48	NF	N/A	Head	45	5	YES	NO	3	1	0	IIIb	dead of disease	13	UNK	13.0	0	UNK	13	NA	1
+1949_TCR_clones	37733889	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y							x	n.e.	M	71	NF	N/A	Head	35	8	YES	NO	2	1	0	IIIb	dead of disease	84	UNK	84.0	0	UNK	84	NA	1
+2045_TCR_clones	54417910	MLP-1	NovaSeq_set2	Y	2nd 48				x		x		x		n.e.	M	70	NF	N/A	body-tail	70	10	YES	YES	4	1	1	IV	alive	76	UNK	76.0	1	UNK	Alive	NA	0
+2051_TCR_clones	83112213	NA	NovaSeq_set2	Y	3rd 42				x	x					n.e.	M	67	F	Glucagon	body-tail	60	1	YES	YES	4	1	1	IV	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+2068_TCR_clones	34657388	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	M	71	NF	N/A	Tail	18	2	YES	NO	1	X	0	I	alive	5	UNK	5.0	1	UNK	Alive	NA	0
+2181_TCR_clones	32544462	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	2nd 48	Mayo			x						n.e.	M	24	NF	N/A	Tail	30	1	NO	NO	2	0	0	IIa	dead of disease	30	UNK	30.0	0	UNK	30	NA	1
+2182_TCR_clones	94570180	Intermediate	NovaSeq_set2	Y	3rd 42										n.e.	M	27	NF	N/A	Body	25	1	NO	NO	2	0	0	IIa	alive	234	UNK	234.0	1	UNK	Alive	NA	0
+2183_TCR_clones	58356230	NA	NovaSeq_set2	Y	1st 48				x						n.e.	M	50	NF	N/A	Tail	10	1	NO	NO	1	0	0	I	alive	86	UNK	86.0	1	UNK	Alive	NA	0
+2184_TCR_clones	55801079	Insulinoma-like	NovaSeq_set2	Y	3rd 42			Y							n.e.	M	50	NF	N/A	Body	45	1	NO	NO	3	0	0	IIb	alive	207	UNK	207.0	1	UNK	Alive	NA	0
+2194_TCR_clones	32500072	Intermediate	FCHLY32BBXX_Kannan_Mayo	N 	3rd 42	Mayo										F	67	UNK	N/A	UNK	UNK	UNK	UNK	UNK	UNK	UNK	UNK	UNK	UNK	NA	UNK	UNK	2	UNK	UNK	NA	0
+2236_TCR_clones	43318348	MLP-1	FCHLY32BBXX_Kannan_Mayo	N 	3rd 42	Mayo												UNK	N/A	UNK	UNK	UNK	UNK	UNK	UNK	UNK	UNK	UNK	UNK	NA	UNK	UNK	2	UNK	UNK	NA	0
+2255_TCR_clones	29123040	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	42	F	Insulin	Tail	33	<2	YES	NO	2	1	0	IIIb		NA	UNK	UNK	2	UNK	UNK	NA	0
+2257_TCR_clones	30621815	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo			x	x					n.e.	M	51	NF	N/A	Head	50	6	YES	NO	3	1	0	IIIb	alive	21	UNK	21.0	1	UNK	Alive	NA	0
+2260_TCR_clones	30536163	NA	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	M	66	NF	N/A	Head	18	70	YES	NO	3	1	0	IIIb	alive	23	UNK	23.0	1	UNK	Alive	NA	0
+2285_TCR_clones	30912341	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y						x	n.e.	M	76	NF	N/A	body	70	4	NO	NO	2	0	0	IIa	alive	23	UNK	23.0	1	UNK	Alive	NA	0
+2292_TCR_clones	41485274	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo			x						n.e.	M	68	NF	N/A	Head	22	7	NO	NO	2	0	0	IIa	alive	28	UNK	28.0	1	UNK	Alive	NA	0
+2328_TCR_clones	24562234	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y							n.e.	F	76	NF	N/A	Head	27	2	YES	NO	2	1	0	IIIb	alive	24	UNK	24.0	1	UNK	Alive	NA	0
+2353_TCR_clones	28606863	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y	x		x		x		n.e.	M	84	NF	N/A	body-tail	70	5	NO	NO	2	0	0	IIa	alive	23	UNK	23.0	1	UNK	Alive	NA	0
+2420_TCR_clones	38047709	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y							n.e.	F	56	NF	N/A	Tail	55	6	NO	NO	2	0	0	IIa	alive	22	UNK	22.0	1	UNK	Alive	NA	0
+2430_TCR_clones	36742180	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo			x				x		n.e.	F	23	NF	N/A	body	na	<1	NO	NO	X	0	0		alive	27	UNK	27.0	1	UNK	Alive	NA	0
+2455_TCR_clones	24679464	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	F	47	NF	N/A	Head	30	3	YES	YES	3	1	1	IV	alive	22	UNK	22.0	1	UNK	Alive	NA	0
+2456_TCR_clones	29678504	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y							n.e.	F	68	NF	N/A	ampulla	17	7	YES	NO	3	1	0	IIIb	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+2458_TCR_clones	25479421	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	62	NF	N/A	Head	30	<2	NO	NO	2	0	0	IIa	alive	17	UNK	17.0	1	UNK	Alive	NA	0
+2467_TCR_clones	23573553	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y	Y							n.e.	M	46	NF	N/A	body-tail	60	5	NO	NO	2	0	0	IIa	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+2470_TCR_clones	26151212	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y		x		x				n.e.	F	52	NF	N/A	body-tail	18	10	NO	NO	1	0	0	I	alive	27	UNK	27.0	1	UNK	Alive	NA	0
+2476_TCR_clones	25889761	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	F	49	NF	N/A	Head	55	<2	YES	NO	2	1	0	IIIb	alive	17	UNK	17.0	1	UNK	Alive	NA	0
+2497_TCR_clones	25175494	NA	FCHLY32BBXX_Kannan_Mayo	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	0
+2498_TCR_clones	35640986	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	M	45	NF	N/A	duodenum	4	8	YES	NO	1	1	0	IIIb		NA	UNK	UNK	2	UNK	UNK	NA	0
+2503_TCR_clones	30434832	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo			x						n.e.	M	46	F	Insulin	total pancreas	20	<2	NO	NO	1	0	0	I	alive	26	UNK	26.0	1	UNK	Alive	NA	0
+2531_TCR_clones	36636977	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo			x				x		n.e.	F	51	NF	N/A	body-tail	65	10	NO	YES	2	0	1	IV	alive	29	UNK	29.0	1	UNK	Alive	NA	0
+2537_TCR_clones	36091820	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	41	NF	N/A	body	15	3	NO	NO	1	0	0	I		NA	UNK	UNK	2	UNK	UNK	NA	0
+2541_TCR_clones	44599097	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y		x						n.e.	M	58	NF	N/A	total pancreas	30	<2	YES	NO	2	1	0	IIIb		NA	UNK	UNK	2	UNK	UNK	NA	0
+2545_TCR_clones	21340227	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y							n.e.	M	54	NF	N/A	head	65	<2	YES	NO	2	1	0	IIIb	dead	2	UNK	2.0	0	UNK	2	NA	1
+2582_TCR_clones	32084699	Insulinoma-like	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo									n.e.	M	54	F	Insulin	Body	20	<2	NA	NO	1	X	0	I		NA	UNK	UNK	2	UNK	UNK	NA	0
+2671_TCR_clones	37929389	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	36	NF	N/A	head	24	3	YES	NO	2	1	0	IIIb		NA	UNK	UNK	2	UNK	UNK	NA	0
+2692_TCR_clones	38043395	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo			x						n.e.	F	71	NF	N/A	body	20	3	NO	NO	1	0	0	I		NA	UNK	UNK	2	UNK	UNK	NA	0
+2812_TCR_clones	63751254	Intermediate	NovaSeq_set2	Y	N/A	Mayo2			x						n.e.	M	55	NF	N/A	body	40	6	NO	NO	2	0	0	IIa	alive	17	UNK	17.0	1	UNK	Alive	NA	0
+2884_TCR_clones	31343497	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y			x					n.e.	M	68	NF	N/A	head	30	13	YES	NO	3	1	0	IIIb		NA	UNK	UNK	2	UNK	UNK	NA	0
+2889_TCR_clones	37312363	NA	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y							n.e.	F	65	NF	N/A	head	30	2	NO	NO	2	0	0	IIa	alive	21	UNK	21.0	1	UNK	Alive	NA	0
+2917_TCR_clones	28935921	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	3rd 42	Mayo		Y							n.e.	F	72	NF	N/A	Head	45	2	YES	NO	3	1	0	IIIb	alive	17	UNK	17.0	1	UNK	Alive	NA	0
+2961_TCR_clones	24038685	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y		x						n.e.	M	49	F	Glucagon	tail	14	2	NO	NO	1	0	0	I	alive	22	UNK	22.0	1	UNK	Alive	NA	0
+3121_TCR_clones	31098645	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	F	55	NF	N/A	body	25	2	NO	NO	2	0	0	IIa	alive	11	UNK	11.0	1	UNK	Alive	NA	0
+3264_TCR_clones	34202523	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	F	56	NF	N/A	Head	50	5	NO	NO	3	0	0	IIb		NA	UNK	UNK	2	UNK	UNK	NA	0
+3309_TCR_clones	48956157	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y		x		x	x			n.e.	M	79	NF	N/A	Tail	40	5	YES	NO	3	1	0	IIIb		NA	UNK	UNK	2	UNK	UNK	NA	0
+3313_TCR_clones	25363567	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y			x					n.e.	M	56	NF	N/A	Head	100	8	YES	NO	2	1	0	IIIb		NA	UNK	UNK	2	UNK	UNK	NA	0
+3328_TCR_clones	22828223	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y		x						n.e.	F	53	F	Glucagon	body-tail	8	<2	NO	NO	1	0	0	I	alive	13	UNK	13.0	1	UNK	Alive	NA	0
+3352_TCR_clones	17967924	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	70	NF	N/A	Head	26	3	YES	NO	3	1	0	IIIb	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+3358_TCR_clones	29969837	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	56	NF	N/A	body	6	2	NO	NO	1	0	0	I	alive	15	UNK	15.0	1	UNK	Alive	NA	0
+3405_TCR_clones	40797771	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	73	NF	N/A	Tail	15	<2	YES	NO	1	1	0	IIIb	alive	16	UNK	16.0	1	UNK	Alive	NA	0
+3423_TCR_clones	37025824	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	M	70	NF	N/A	Tail	65	3	YES	YES	3	1	1	IV	alive	22	UNK	22.0	1	UNK	Alive	NA	0
+3435_TCR_clones	22081616	NA	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y								n.e.	F	62	NF	N/A	body-tail	30	<2	YES	YES	2	1	1	IV	alive	20	UNK	20.0	1	UNK	Alive	NA	0
+3646_TCR_clones	26268304	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									F	55	NF	N/A	Head	30	3	NO	NO	2	0	0	IIa	alive	14	UNK	14.0	1	UNK	Alive	NA	0
+3667_TCR_clones	36425732	MLP-2	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									F	74	NF	N/A	Head	20	4	YES	NO	3	1	0	IIIb	alive	18	UNK	18.0	1	UNK	Alive	NA	0
+3728_TCR_clones	27863494	Intermediate	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									M	68	NF	N/A	Tail	15	<2	NO	NO	1	0	0	I	alive	6	UNK	6.0	1	UNK	Alive	NA	0
+3731_TCR_clones	37502967	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									F	57	NF	N/A	Head	13	2	NO	NO	1	0	0	I	alive	6	UNK	6.0	1	UNK	Alive	NA	0
+3797_TCR_clones	27224535	MLP-1	FCHLY32BBXX_Kannan_Mayo	Y	N/A	Mayo	Y									F	61	NF	N/A	Head	45	<1	NO	NO	2	0	0	IIa	alive	13	UNK	13.0	1	UNK	Alive	NA	0
+3973_TCR_clones	25127085	NA	FCHLY32BBXX_Kannan_Mayo	Y (3793)	N/A	Mayo	Y									M	57	NF	N/A	Head	30	10	NO	NO	2	0	0	IIa		NA	UNK	UNK	2	UNK	UNK	NA	0
