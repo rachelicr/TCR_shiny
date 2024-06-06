@@ -8,7 +8,7 @@ library(prodlim)
 library(survival)
 options(ggrepel.max.overlaps = Inf)
 
-test_dir <- "TCR_shiny_clones/"
+test_dir <- "reversions/tst_data/"
 
 # Define UI for TCRseq app ----
 ui = tagList(
@@ -16,13 +16,24 @@ ui = tagList(
     navbarPage(
     title = "TCRseq", 
     # Theme for the page, from bslib library
-    theme = bs_theme(version = 4, bootswatch = "minty"),        
+    theme = bs_theme(version = 4, bootswatch = "minty"),
+    
     tabPanel(
       title = "Load data",
       fluidRow(
         column(
-          3,          
-          actionButton(inputId = "load", label = "Load test data", class = "btn-secondary"),
+          3,
+          # Input folder
+          shinyDirButton("directory_select", "TCRseq MiXCR directory", "TCRseq MiXCR directory"),
+          tags$p(textOutput("directory_selected")),
+          radioButtons(
+            inputId = "tcr_bcr", 
+            label = "Sequence type",  
+            choices = c("TCR", "BCR"), 
+            selected = "TCR",
+            inline = T
+          ),
+          actionButton(inputId = "load", label = "Load data", class = "btn-secondary"),
           
           # Metadata headers and other options
           tags$hr(),
@@ -145,7 +156,7 @@ server = function(input, output, session) {
 
   #### Metadata category input section
   output$metadata_headers = renderUI({
-    f = read.table(paste0(test_dir, "/metadata.txt"), sep = "\t", header = T)
+    f = read.table(paste0(user_path(), "/metadata.txt"), sep = "\t", header = T)
     
     output_choices = c("None")
     for(i in 1:length(names(f))){
@@ -164,12 +175,12 @@ server = function(input, output, session) {
   
   
   #### Data loading
-  user_path =  test_dir#eventReactive(input$load,{
-    #parseDirPath(volumes, input$directory_select)
-  #})
-  #output$directory_selected = renderText({
-  #  parseDirPath(volumes, input$directory_select)
-  #})
+  user_path =  eventReactive(input$load,{
+    parseDirPath(volumes, input$directory_select)
+  })
+  output$directory_selected = renderText({
+    parseDirPath(volumes, input$directory_select)
+  })
   
 
   
@@ -180,7 +191,7 @@ server = function(input, output, session) {
     shinyjs::html(id = "load", html = "Loading...")
     
     # Do the actual processing and save
-    result = repLoad(test_dir, .mode="single")
+    result = repLoad(user_path(), .mode="single")
     
     # Change the button again
     removeCssClass(id = "load", class = "btn-danger")
@@ -198,7 +209,7 @@ server = function(input, output, session) {
   })
 
   observeEvent(input$load, {
-    metadata = read.table(paste0(test_dir, "/metadata.txt"), sep = "\t", header = T)
+    metadata = read.table(paste0(user_path(), "/metadata.txt"), sep = "\t", header = T)
     output$km_status = renderUI({
       selectInput(
         inputId="km_status_input",
@@ -224,23 +235,9 @@ server = function(input, output, session) {
   
   
   tcr_custom_count = eventReactive(input$load,{
-    metadata = read.table(paste0(test_dir, "/metadata.txt"), sep = "\t", header = T)
-    filenames <- list.files(test_dir, pattern="*.tsv", full.names=TRUE)
-    all_counts = data.frame()          
-    for (s in filenames){        
-      s_clones = read.table(s, sep = "\t", header = T)
-      file_name_split = unlist(strsplit(s, "/"))
-      sample_name = file_name_split[length(file_name_split)]
-      sample_name = gsub(".tsv", "", sample_name)
-      all_counts = rbind(
-        all_counts, 
-        cbind(
-          sample_name, 
-          nrow(s_clones), 
-          sum(as.numeric(s_clones$cloneCount))
-        )
-      )      
-    }
+    metadata = read.table(paste0(user_path(), "/metadata.txt"), sep = "\t", header = T)
+    filenames <- list.files(user_path(), pattern="*.tsv", full.names=TRUE)
+    all_counts = data.frame()
     for (s in filenames){
       s_clones = read.table(s, sep = "\t", header = T)
       file_name_split = unlist(strsplit(s, "/"))

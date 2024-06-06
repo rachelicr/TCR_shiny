@@ -34,6 +34,7 @@ ENV PATH /opt/conda/envs/r-shiny/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/b
 # Copy our app.R and required folders
 COPY app.R ./
 COPY www ./www
+COPY tst_data ./tst_data
 RUN chmod 777 app.R
 
 EXPOSE 3838

@@ -31,6 +31,10 @@ Creating a conda env to run it:
 mamba init
 mamba create -n shiny -c conda-forge r-base r-shiny r-ggplot2 r-bslib r-prodlim r-survival r-shinyFiles r-shinyjs r-immunarch
 mamba activate shiny
+```
+
+Run the application:
+```bash
 Rscript -e "shiny::runApp('.', port = 3838, host = '0.0.0.0')"
 ```
 
