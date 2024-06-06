@@ -35,6 +35,8 @@ ENV PATH /opt/conda/envs/r-shiny/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/b
 COPY app.R ./
 COPY www ./www
 COPY tst_data ./tst_data
+COPY TCR_shiny_clones ./TCR_shiny_clones
+
 RUN chmod 777 app.R
 
 EXPOSE 3838

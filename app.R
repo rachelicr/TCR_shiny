@@ -226,21 +226,7 @@ server = function(input, output, session) {
   tcr_custom_count = eventReactive(input$load,{
     metadata = read.table(paste0(test_dir, "/metadata.txt"), sep = "\t", header = T)
     filenames <- list.files(test_dir, pattern="*.tsv", full.names=TRUE)
-    all_counts = data.frame()          
-    for (s in filenames){        
-      s_clones = read.table(s, sep = "\t", header = T)
-      file_name_split = unlist(strsplit(s, "/"))
-      sample_name = file_name_split[length(file_name_split)]
-      sample_name = gsub(".tsv", "", sample_name)
-      all_counts = rbind(
-        all_counts, 
-        cbind(
-          sample_name, 
-          nrow(s_clones), 
-          sum(as.numeric(s_clones$cloneCount))
-        )
-      )      
-    }
+    all_counts = data.frame()              
     for (s in filenames){
       s_clones = read.table(s, sep = "\t", header = T)
       file_name_split = unlist(strsplit(s, "/"))
