@@ -31,6 +31,7 @@ Creating a conda env to run it:
 mamba init
 mamba create -n shiny -c conda-forge r-base r-shiny r-ggplot2 r-bslib r-prodlim r-survival r-shinyFiles r-shinyjs r-immunarch
 mamba activate shiny
+mamba install -c conda-forge r-shinyFeedback
 ```
 
 Run the application:

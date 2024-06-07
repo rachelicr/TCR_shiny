@@ -11,19 +11,18 @@ options(ggrepel.max.overlaps = Inf)
 test_dir <- "TCR_shiny_clones/"
 
 # Define UI for TCRseq app ----
-ui = tagList(
+ui = tagList(  
   useShinyjs(),
     navbarPage(
     title = "TCRseq", 
     # Theme for the page, from bslib library
     theme = bs_theme(version = 4, bootswatch = "minty"),        
     tabPanel(
-      title = "Load data",
-      fluidRow(
+      title = "Load data",                        
+      fluidRow(                
         column(
-          3,          
-          actionButton(inputId = "load", label = "Load test data", class = "btn-secondary"),
-          
+          3,                                        
+          actionButton(inputId = "load", label = "Load test data", class = "btn-secondary"),          
           # Metadata headers and other options
           tags$hr(),
           uiOutput("metadata_headers"),
@@ -32,13 +31,14 @@ ui = tagList(
             checkboxInput(inputId = "show_test", label = "Show pairwise test"),
             checkboxInput(inputId = "show_error", label = "Show error bars")
           ),
+          textOutput("msg"),   
         ),
         column(
           9,
           title = "Clone count",
-          plotOutput(outputId = "clone_count_plot", height = "600px")
+          plotOutput(outputId = "clone_count_plot", height = "600px"),          
         )
-      ),
+      ),            
     ),
     
     navbarMenu(
@@ -57,9 +57,7 @@ ui = tagList(
             plotOutput(outputId = "cdr3_plot", height = "600px")
           )     
         ) 
-      ),
-      
-      
+      ),            
       tabPanel(
         title = "Clustering",
         fluidRow(
@@ -117,12 +115,12 @@ ui = tagList(
           column(
             9,
             plotOutput(outputId = "kaplan_meier_plot", height = "600px")
-          )
+          ),          
         )
       )
       
     )
-  )
+  )  
 )
 
 # Define server logic to plot various variables against mpg ----
@@ -178,18 +176,19 @@ server = function(input, output, session) {
     removeCssClass(id = "load", class = "btn-secondary")
     addCssClass(id = "load", class = "btn-danger")
     shinyjs::html(id = "load", html = "Loading...")
-    
+                   
     # Do the actual processing and save
     result = repLoad(test_dir, .mode="single")
-    
+        
     # Change the button again
     removeCssClass(id = "load", class = "btn-danger")
     addCssClass(id = "load", class = "btn-success")
     shinyjs::html(id = "load", html = "Loaded!")
-    
+        
     # Return the result to assign it to tcr_immunarch
     result
   })
+  
   # Also change the label of the button when user selects new path
   observeEvent(input$directory_select, {
     removeCssClass(id = "load", class = "btn-success")
@@ -198,6 +197,16 @@ server = function(input, output, session) {
   })
 
   observeEvent(input$load, {
+    
+    withCallingHandlers({
+        shinyjs::html("text", "")        
+        tmp <- tcr_immunarch()$data
+      },
+        message = function(m) {
+          shinyjs::html(id = "msg", html = paste('<span style="color:grey;font-size:10px">',m$message,'</span>'), add = TRUE)
+      })
+          
+        
     metadata = read.table(paste0(test_dir, "/metadata.txt"), sep = "\t", header = T)
     output$km_status = renderUI({
       selectInput(
@@ -226,8 +235,10 @@ server = function(input, output, session) {
   tcr_custom_count = eventReactive(input$load,{
     metadata = read.table(paste0(test_dir, "/metadata.txt"), sep = "\t", header = T)
     filenames <- list.files(test_dir, pattern="*.tsv", full.names=TRUE)
-    all_counts = data.frame()              
+    all_counts = data.frame()
+    withProgress(message = 'Loading files', value = 0, {
     for (s in filenames){
+      incProgress(1/n, detail = paste(length(filenames),"/", i))      
       s_clones = read.table(s, sep = "\t", header = T)
       file_name_split = unlist(strsplit(s, "/"))
       sample_name = file_name_split[length(file_name_split)]
@@ -241,6 +252,7 @@ server = function(input, output, session) {
         )
       )
     }
+    })
     names(all_counts) = c("sample", "unique_clone_count", "total_clone_count")
     all_counts$unique_clone_count = as.numeric(all_counts$unique_clone_count)
     all_counts$total_clone_count = as.numeric(all_counts$total_clone_count)

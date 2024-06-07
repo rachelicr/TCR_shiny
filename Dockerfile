@@ -16,7 +16,7 @@ FROM condaforge/mambaforge:23.3.1-1 as conda
 
 RUN apt-get update -y; apt-get upgrade -y; 
     
-RUN conda create -n r-shiny -c conda-forge -y r-base r-shiny r-ggplot2 r-bslib r-prodlim r-survival r-shinyFiles r-shinyjs r-immunarch
+RUN conda create -n r-shiny -c conda-forge -y r-base r-shiny r-ggplot2 r-bslib r-prodlim r-survival r-shinyFiles r-shinyjs r-immunarch r-shinyFeedback r-shinyEventLogger
 RUN echo "alias l='ls -lah'" >> ~/.bashrc
 
 # This is the conda magic. If you are running through a shell just activating the environment in your profile is peachy
