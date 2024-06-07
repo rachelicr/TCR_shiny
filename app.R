@@ -8,7 +8,7 @@ library(prodlim)
 library(survival)
 options(ggrepel.max.overlaps = Inf)
 
-test_dir <- "TCR_shiny_clones/"
+test_dir <- "TCR_test_data"
 
 # Define UI for TCRseq app ----
 ui = tagList(  
@@ -199,11 +199,15 @@ server = function(input, output, session) {
   observeEvent(input$load, {
     
     withCallingHandlers({
+        all_msg <- ""
         shinyjs::html("text", "")        
         tmp <- tcr_immunarch()$data
+        shinyjs::html(id = "msg", html = paste('<span style="color:grey;font-size:10px">Loaded immunarch from',test_dir,'</span>'), add = FALSE)
       },
         message = function(m) {
-          shinyjs::html(id = "msg", html = paste('<span style="color:grey;font-size:10px">',m$message,'</span>'), add = TRUE)
+          all_msg <- paste(all_msg,m$message)
+          short_msg = substring(all_msg, 1, 100)
+          shinyjs::html(id = "msg", html = paste('<span style="color:grey;font-size:10px">',short_msg,'</span>'), add = TRUE)
       })
           
         
